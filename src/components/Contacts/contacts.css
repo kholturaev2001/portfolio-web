@@ -41,4 +41,42 @@
     font-size: 0.8rem;
 }
 
+/* ===================  FORM ====================== */
+
+form {
+    display: flex; 
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);   
+}
+
+.btn {
+    transition: var(--transition)
+}
+
+/* ===========================    MEDIA QUERIES (MEDIUM DEVICES) ====================== */
+@media screen and (max-width: 1024px) {
+    .container.contact_container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* ===========================    MEDIA QUERIES (SMALL DEVICES) ====================== */
+@media screen and (max-width: 600px) {
+    .container.contact_container {
+        width: var(--container-width-sm)
+    }
+
+}
+
 
