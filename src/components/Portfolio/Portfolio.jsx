@@ -21,14 +21,14 @@ const Portfolio = () => {
     {
       id: 2,
       image: IMG2,
-      title: "Coffe Style",
+      title: "Coffe Style (Landing Page)",
       github: "https://github.com/kholturaev2001/Coffee-Style",
       demo: "https://coffe-style.netlify.app",
     },
     {
       id: 3,
       image: IMG3,
-      title: "Airbnb",
+      title: "Airbnb (A small project with card components)",
       github: "https://github.com/kholturaev2001/Airbnb",
       demo: "https://iridescent-moonbeam-0975eb.netlify.app",
     },
@@ -42,7 +42,7 @@ const Portfolio = () => {
     {
       id: 5,
       image: IMG5,
-      title: "Dashboard",
+      title: `Dashboard (After signing up functionalities such as adding members, seeing the dashboard statistics and orders are available)`,
       github: "https://github.com/kholturaev2001/Dashboard",
       demo: "https://superb-begonia-3e7641.netlify.app",
     },
@@ -56,14 +56,14 @@ const Portfolio = () => {
     {
       id: 7,
       image: IMG7,
-      title: "Travel Journal",
+      title: "Travel Journal (Explore fascinating corners of the word on this project)",
       github: "https://github.com/kholturaev2001/Travel-journey",
       demo: "https://charming-llama-3426a6.netlify.app",
     },
     {
       id: 8,
       image: IMG8,
-      title: "Axios",
+      title: "Axios (A project with backend interaction example)",
       github: "https://github.com/kholturaev2001/Axios-Back-end-",
       demo: "https://lustrous-puppy-545d19.netlify.app",
     },

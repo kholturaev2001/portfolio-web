@@ -49,6 +49,12 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.me > img {
+    width: 400px;
+    /* object-fit: cover; */
+    margin-left: -20px
+}
+
 /* ============= SCROLL DOWN =============== */
 .scroll_down {
     position: absolute;
