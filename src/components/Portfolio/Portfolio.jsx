@@ -1,55 +1,71 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assetsOne/portfolio1.jpg";
-import IMG2 from "../../assetsOne/portfolio2.jpg";
-import IMG3 from "../../assetsOne/portfolio3.jpg";
-import IMG4 from "../../assetsOne/portfolio4.jpg";
-import IMG5 from "../../assetsOne/portfolio5.png";
-import IMG6 from "../../assetsOne/portfolio6.jpg";
+import IMG1 from "../../assets/MiniProjects.png";
+import IMG2 from "../../assets/CoffeStyle.png";
+import IMG3 from "../../assets/Airbnb.png";
+// import IMG4 from "../../assets/Landify.png";
+import IMG5 from "../../assets/Dashboard.png";
+// import IMG6 from "../../assets/TicTacToe.png";
+import IMG7 from "../../assets/TravelJournal.png";
+import IMG8 from "../../assets/axios back.png";
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
       image: IMG1,
-      title: "Crypto Currency Dashboard & Financial Visualization",
-      gitgub: "https://gitgub.com",
-      demo: "https://dribbble.com/Alien_pixels",
+      title: "Mini Projects",
+      github: "https://github.com/kholturaev2001/Mini_Projects",
+      demo: "https://dancing-licorice-7e4dab.netlify.app",
     },
     {
       id: 2,
       image: IMG2,
-      title: "Charts templates & infographics in Figma",
-      gitgub: "https://gitgub.com",
-      demo: "https://dribbble.com/Alien_pixels",
+      title: "Coffe Style",
+      github: "https://github.com/kholturaev2001/Coffee-Style",
+      demo: "https://coffe-style.netlify.app",
     },
     {
       id: 3,
       image: IMG3,
-      title: "Figma dashboard UI kit for data design web apps",
-      gitgub: "https://gitgub.com",
-      demo: "https://dribbble.com/Alien_pixels",
+      title: "Airbnb",
+      github: "https://github.com/kholturaev2001/Airbnb",
+      demo: "https://iridescent-moonbeam-0975eb.netlify.app",
     },
-    {
-      id: 4,
-      image: IMG4,
-      title: "Crypto Currency Dashboard & Financial Visualization",
-      gitgub: "https://gitgub.com",
-      demo: "https://dribbble.com/Alien_pixels",
-    },
+    // {
+    //   id: 4,
+    //   image: IMG4,
+    //   title: "Crypto Currency Dashboard & Financial Visualization",
+    //   github: "https://github.com",
+    //   demo: "https://dribbble.com/Alien_pixels",
+    // },
     {
       id: 5,
       image: IMG5,
-      title: "Crypto Currency Dashboard & Financial Visualization",
-      gitgub: "https://gitgub.com",
-      demo: "https://dribbble.com/Alien_pixels",
+      title: "Dashboard",
+      github: "https://github.com/kholturaev2001/Dashboard",
+      demo: "https://superb-begonia-3e7641.netlify.app",
+    },
+    // {
+    //   id: 6,
+    //   image: IMG6,
+    //   title: "Crypto Currency Dashboard & Financial Visualization",
+    //   github: "https://github.com",
+    //   demo: "https://dribbble.com/Alien_pixels",
+    // },
+    {
+      id: 7,
+      image: IMG7,
+      title: "Travel Journal",
+      github: "https://github.com/kholturaev2001/Travel-journey",
+      demo: "https://charming-llama-3426a6.netlify.app",
     },
     {
-      id: 6,
-      image: IMG6,
-      title: "Crypto Currency Dashboard & Financial Visualization",
-      gitgub: "https://gitgub.com",
-      demo: "https://dribbble.com/Alien_pixels",
+      id: 8,
+      image: IMG8,
+      title: "Axios",
+      github: "https://github.com/kholturaev2001/Axios-Back-end-",
+      demo: "https://lustrous-puppy-545d19.netlify.app",
     },
   ];
   return (
