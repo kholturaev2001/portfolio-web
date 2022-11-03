@@ -69,14 +69,16 @@ header {
 /* ===========================    MEDIA QUERIES (MEIUM DEVICES) ====================== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
 }
 
 /* ===========================    MEDIA QUERIES (SMALL DEVICES) ====================== */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 115vh;
+        margin-top: -40px;
+        zoom: 0.8;
     }
     .header_socials, .scroll_down {
         display: none;
