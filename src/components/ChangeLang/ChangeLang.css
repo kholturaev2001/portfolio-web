@@ -1,0 +1,98 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  right: 30px;
+  top: 30px;
+}
+
+.lngs_container {
+  width: 92px;
+  border-radius: 0px 0px 10px 10px;
+  background: rgba(0, 147, 237, 0.08);
+  margin-top: 34px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.lng_btns {
+  background: transparent;
+  height: 32px;
+  width: 100%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0093ed;
+  transition: all 0.2s ease-out;
+}
+
+.lng_btns > span {
+  margin: 0 14px 0 6px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+.lng_btns:hover {
+  background: #0093ed;
+  color: white;
+  cursor: pointer;
+}
+
+.main > button {
+  width: 92px;
+  height: 32px;
+  border: none;
+  border-radius: 20px;
+  background: rgba(0, 147, 237, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0093ed;
+}
+
+.main > button:hover {
+  cursor: pointer;
+}
+
+.main > button > p {
+  margin: 0 6px;
+}
+
+.main > button > svg {
+  transition: all 0.4s ease-out;
+  fill: #0093ed;
+}
+
+.down {
+  transform: rotate(-180deg);
+}
+
+.up {
+  transform: rotate(0deg);
+}
+
+.flagImg {
+  width: 26px;
+}
+
+
+/* ===========================    MEDIA QUERIES (MEDIUM DEVICES) ====================== */
+@media screen and (max-width: 1024px) {
+    .main {
+        top: 15px;
+        right: 15px;
+    }
+  }
+  
+  /* ===========================    MEDIA QUERIES (SMALL DEVICES) ====================== */
+  @media screen and (max-width: 600px) {
+    .main {
+        top: 10px;
+        right: 10px;
+    }
+  }
