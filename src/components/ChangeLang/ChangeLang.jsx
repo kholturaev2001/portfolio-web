@@ -11,11 +11,14 @@ import ru from "./langs/ru/global.json";
 import en from "./langs/en/global.json";
 import uz from "./langs/uz/global.json";
 import de from "./langs/de/global.json";
+import { useDispatch, useSelector } from "react-redux";
+import { changeLangAcc } from "../../store/changeLang/changeLang";
 
-const   ChangeLang = () => {
+const ChangeLang = () => {
   const [arrow, setArrow] = useState(false);
   const [a, setA] = useState(1);
   const [data, setData] = useState({});
+  const dispatch = useDispatch();
 
   const language = [
     {
@@ -52,33 +55,30 @@ const   ChangeLang = () => {
 
   useEffect(() => {
     if (a == 1) {
-      setData(en);
+      // setData(en);
+      dispatch(changeLangAcc({ en }));
     } else if (a == 2) {
-      setData(ru);
+      // setData(ru);
+      dispatch(changeLangAcc({ ru }));
     } else if (a == 3) {
-      setData(de);
+      // setData(de);
+      dispatch(changeLangAcc({ de }));
     } else if (a == 4) {
-      setData(uz);
+      // setData(tj);
+      dispatch(changeLangAcc({ tj }));
     } else {
-      setData(tj);
+      // setData(uz);
+      dispatch(changeLangAcc({ uz }));
     }
   }, [a]);
 
   const arrowToggle = () => {
     setArrow((e) => !e);
   };
-  function changeLang(c) {
+
+  function changeLangFunc(c) {
     localStorage.setItem("lang", c);
     setA(c);
-  }
-
-  useEffect(() => {
-    document.addEventListener("click", handleClickOutside);
-  }, []);
-
-  const handleClickOutside = () => {
-    setArrow((e) => e === true ? true : false);
-    console.log('clicked')
   }
 
   return (
@@ -99,7 +99,7 @@ const   ChangeLang = () => {
                     className="lng_btns"
                     onClick={() => {
                       setArrow((e) => !e);
-                      changeLang(el.id);
+                      changeLangFunc(el.id);
                     }}
                   >
                     <img className="flagImg" src={el.img} alt="not found" />{" "}
