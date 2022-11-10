@@ -13,8 +13,8 @@ const Header = () => {
     <header>
       <div className="container header_container">
         <h5 className="hello">{data?.hello}</h5>
-        <h1>Muhammadrasul Kholturaev</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <h1>{data?.myName}</h1>
+        <h5 className="text-light hello">{data?.job}</h5>
         <CTA />
         <HeaderSocials />
 
@@ -22,7 +22,7 @@ const Header = () => {
           <img src={ME} alt="me" />
         </div>
         <a href="#contact" className="scroll_down">
-          Scroll Down
+          {data?.scrollDown}
         </a>
       </div>
     </header>

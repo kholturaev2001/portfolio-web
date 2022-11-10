@@ -1,4 +1,8 @@
 {
-    "hello": "Solom, mening ismim"
-  }
-  
+  "hello": "Salom, mening ismim",
+  "myName": "Muhammadrasul Kholturaev",
+  "job": "Frontend Dasturchi",
+  "scrollDown": "Pastga",
+  "cvDownload": "CV Yuklamoq",
+  "letsTalk": "Muloqot"
+}

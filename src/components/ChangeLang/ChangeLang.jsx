@@ -11,63 +11,52 @@ import ru from "./langs/ru/global.json";
 import en from "./langs/en/global.json";
 import uz from "./langs/uz/global.json";
 import de from "./langs/de/global.json";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { changeLangAcc } from "../../store/changeLang/changeLang";
 
 const ChangeLang = () => {
   const [arrow, setArrow] = useState(false);
   const [a, setA] = useState(1);
-  const [data, setData] = useState({});
   const dispatch = useDispatch();
 
   const language = [
     {
       id: 1,
-      name: "EN",
-      locales: "en",
+      name: "English",
       img: ENFlag,
     },
     {
       id: 2,
-      name: "РУ",
-      locales: "ru",
+      name: "Русский",
       img: RUFlag,
     },
     {
       id: 3,
-      name: "DE",
-      locales: "de",
+      name: "Deutsch",
       img: DEFlag,
     },
     {
       id: 4,
-      name: "ТҶ",
-      locales: "tg",
+      name: "Тоҷикӣ",
       img: TJFlag,
     },
     {
       id: 5,
-      name: "UZ",
-      locales: "uz",
+      name: "Uzbekcha",
       img: UZFlag,
     },
   ];
 
   useEffect(() => {
     if (a == 1) {
-      // setData(en);
       dispatch(changeLangAcc({ en }));
     } else if (a == 2) {
-      // setData(ru);
       dispatch(changeLangAcc({ ru }));
     } else if (a == 3) {
-      // setData(de);
       dispatch(changeLangAcc({ de }));
     } else if (a == 4) {
-      // setData(tj);
       dispatch(changeLangAcc({ tj }));
     } else {
-      // setData(uz);
       dispatch(changeLangAcc({ uz }));
     }
   }, [a]);

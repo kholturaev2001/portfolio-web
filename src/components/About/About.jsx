@@ -2,10 +2,14 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/photo_2022-11-10_01-16-51.jpg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+import { FaChild } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { useSelector } from "react-redux";
 
 const About = () => {
+  const { allData } = useSelector((state) => state.changeLang);
+  const data = Object.values(allData)[0];
   return (
     <section id="about">
       <h5>Get To Know</h5>
@@ -22,11 +26,11 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>6+ Months Working</small>
             </article>
             <article className="about_card">
-              <FiUsers className="about_icon" />
-              <h5>Clients</h5>
+              <FaChartLine className="about_icon" />
+              <h5>Achievements</h5>
               <small>200+ Worldwide</small>
             </article>
             <article className="about_card">

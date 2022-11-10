@@ -1,3 +1,9 @@
 {
-  "hello": "Hello, I'm"
+  "hello": "Hello, I'm", 
+  "myName": "Muhammadrasul Kholturaev",
+  "job": "Frontend Developer", 
+  "scrollDown": "Scroll Down",
+  "cvDownload": "Download CV",
+  "letsTalk": "Let's Talk"
+
 }
