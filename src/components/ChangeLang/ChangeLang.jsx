@@ -12,7 +12,7 @@ import en from "./langs/en/global.json";
 import uz from "./langs/uz/global.json";
 import de from "./langs/de/global.json";
 
-const ChangeLang = () => {
+const   ChangeLang = () => {
   const [arrow, setArrow] = useState(false);
   const [a, setA] = useState(1);
   const [data, setData] = useState({});
@@ -64,14 +64,21 @@ const ChangeLang = () => {
     }
   }, [a]);
 
-  console.log("data is", data);
-
   const arrowToggle = () => {
     setArrow((e) => !e);
   };
   function changeLang(c) {
     localStorage.setItem("lang", c);
     setA(c);
+  }
+
+  useEffect(() => {
+    document.addEventListener("click", handleClickOutside);
+  }, []);
+
+  const handleClickOutside = () => {
+    setArrow((e) => e === true ? true : false);
+    console.log('clicked')
   }
 
   return (
