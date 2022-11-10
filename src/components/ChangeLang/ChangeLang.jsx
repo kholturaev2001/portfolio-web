@@ -70,6 +70,10 @@ const ChangeLang = () => {
     setA(c);
   }
 
+  const lowerCaseAllWordsExceptFirstLetters = (word) => {
+    return word.charAt(0) + word.substring(1).toLowerCase();
+  };
+
   return (
     <div>
       <div className="main">

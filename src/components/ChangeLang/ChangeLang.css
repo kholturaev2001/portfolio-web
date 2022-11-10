@@ -18,24 +18,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .lng_btns {
-  background: transparent;
+  background: rgba(176, 219, 245, 0.8);
   width: 100%;
   transition: all 0.2s ease-out;
   height: 32px;
   border: none;
   display: flex;
   align-items: center;
-  color: #0093ed;
   padding: 0 10px;
 }
 
 .lng_btns > span {
   margin: 0 14px 0 6px;
-  text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.4px;
 }
 
@@ -94,7 +93,8 @@
 /* ===========================    MEDIA QUERIES (SMALL DEVICES) ====================== */
 @media screen and (max-width: 600px) {
   .main {
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
+    zoom: 0.8;
   }
 }
