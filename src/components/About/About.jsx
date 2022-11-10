@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/photo_2022-11-10_01-16-51.jpg";
 import { FaAward } from "react-icons/fa";
-import { FaChild } from "react-icons/fa";
 import { FaChartLine } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { useSelector } from "react-redux";
