@@ -40,8 +40,8 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 {" "}
-                <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
+                <h4>SASS</h4>
+                <small className="text-light">Elementary</small>
               </div>
             </article>
             <article className="experience_details">
@@ -60,19 +60,11 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-          </div>
-        </div>
-
-        {/* END OF FRONTEND */}
-
-        <div className="experience_backend">
-          <h3>Backend Development</h3>
-          <div className="experience_content">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 {" "}
-                <h4>Node JS</h4>
+                <h4>GitHub</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -80,8 +72,32 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 {" "}
-                <h4>MongoDB</h4>
+                <h4>Bitbucket</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        {/* END OF FRONTEND */}
+
+        <div className="experience_backend">
+          <h3>Blockchain Development</h3>
+          <div className="experience_content">
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                {" "}
+                <h4>Solidity</h4>
                 <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                {" "}
+                <h4>Web 3</h4>
+                <small className="text-light">Basics</small>
               </div>
             </article>
             <article className="experience_details">

@@ -70,6 +70,46 @@
     color: var(--color-light);
 }
 
+.about_content > a {
+    margin: 20px 0 0 0;
+}
+
+.langList > li {
+    list-style-type: disc;
+    text-align: start;
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.quote {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem 0.5rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.quote > p {
+    font-size: 0.7rem;
+    color: var(--color-light);
+    margin: 10px 0;
+}
+
+.quote > small {
+    font-size: 9px;
+    text-align: right;
+    padding: 0 5px;
+    font-style: italic;
+    display: block !important;
+}
+
+.quote:hover {
+    background: transparent; 
+    border-color: var(--color-primary-variant);
+    cursor: pointer;
+}
+
 /* ===========================    MEDIA QUERIES (MEDIUM DEVICES) ====================== */
 @media screen and (max-width: 1024px) {
     .about_container {

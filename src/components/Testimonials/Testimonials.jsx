@@ -1,9 +1,10 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assetsOne/avatar1.jpg";
+import AVTR1 from "../../assets/lola.png";
 import AVTR2 from "../../assetsOne/avatar2.jpg";
 import AVTR3 from "../../assetsOne/avatar3.jpg";
 import AVTR4 from "../../assetsOne/avatar4.jpg";
+import {AiFillApple } from 'react-icons/ai'
 
 // import Swiper core and required modules
 import { Pagination, A11y } from "swiper";
@@ -18,7 +19,7 @@ const Testimonials = () => {
   const data = [
     {
       avatar: AVTR1,
-      name: "Tina Snow",
+      name: "Lola Aminjanova",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque perferendis officiis ratione odit dolorem magni sit delectus error reiciendis corporis accusamus at reprehenderit, ullam illo dicta atque? Totam, delectus.",
     },
@@ -43,7 +44,7 @@ const Testimonials = () => {
   ];
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
+      <h5>Positive Feedback And Awards</h5>
       <h2>Testimonials</h2>
 
       <Swiper
@@ -60,6 +61,7 @@ const Testimonials = () => {
               <img src={avatar} />
             </div>
             <h5 className="client_name">{name}</h5>
+            <p >Founder of Apple <span><AiFillApple /></span></p>
             <small className="client_review">{review}</small>
           </SwiperSlide>
         ))}
