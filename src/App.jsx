@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer";
 import ChangeLang from "./components/ChangeLang/ChangeLang";
 
 const App = () => {
+  
   return (
     <div>
       <ChangeLang />

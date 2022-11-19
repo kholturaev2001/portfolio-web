@@ -64,7 +64,7 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 {" "}
-                <h4>GitHub</h4>
+                <h4>Bitbucket</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -72,7 +72,15 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 {" "}
-                <h4>Bitbucket</h4>
+                <h4>MUI/Ant Design</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                {" "}
+                <h4>GitHub</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -104,7 +112,15 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 {" "}
-                <h4>PHP</h4>
+                <h4>Binance</h4>
+                <small className="text-light">Basics</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                {" "}
+                <h4>Metamask</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
@@ -112,16 +128,8 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 {" "}
-                <h4>MySQL</h4>
-                <small className="text-light">Basic</small>
-              </div>
-            </article>
-            <article className="experience_details">
-              <BsPatchCheckFill className="experience_details-icon" />
-              <div>
-                {" "}
-                <h4>Python</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Work With Goerli Test ETH</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
