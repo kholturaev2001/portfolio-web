@@ -40,6 +40,14 @@ const Experience = () => {
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
                 {" "}
+                <h4>TypeScript</h4>
+                <small className="text-light">Elementary</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                {" "}
                 <h4>SASS</h4>
                 <small className="text-light">Elementary</small>
               </div>
@@ -105,6 +113,14 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>Web 3</h4>
+                <small className="text-light">Basics</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                {" "}
+                <h4>Ether.js</h4>
                 <small className="text-light">Basics</small>
               </div>
             </article>

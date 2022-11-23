@@ -58,7 +58,7 @@ const Contacts = () => {
             <h4>Telegram</h4>
             <h5>Muhammadrasul</h5>
             <a href="https://t.me/Kholturaev06" target="_blank">
-              Send a message
+              Send a message  
             </a>
           </article>
           <article className="contact_option">
