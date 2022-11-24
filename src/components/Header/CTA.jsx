@@ -4,7 +4,7 @@ import CV from '../../assets/CV Kholturaev.pdf'
 
 const CTA = () => {
   const { allData } = useSelector((state) => state.changeLang);
-  const data = Object.values(allData)[0];
+  const data = Object.values(allData)[0].header;
   return (
     <div className='cta'>
         <a href={CV} download className='btn'>{data?.cvDownload}</a>

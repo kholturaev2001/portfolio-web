@@ -1,8 +1,10 @@
 {
-  "hello": "Salom, mening ismim",
-  "myName": "Muhammadrasul Kholturaev",
-  "job": "Frontend Dasturchi",
-  "scrollDown": "Pastga",
-  "cvDownload": "CV Yuklamoq",
-  "letsTalk": "Muloqot"
+  "header": {
+    "hello": "Salom, mening ismim",
+    "myName": "Muhammadrasul Kholturaev",
+    "job": "Frontend Dasturchi",
+    "scrollDown": "Pastga",
+    "cvDownload": "CV Yuklamoq",
+    "letsTalk": "Muloqot"
+  }
 }

@@ -11,11 +11,11 @@ import { useSelector } from "react-redux";
 
 const About = () => {
   const { allData } = useSelector((state) => state.changeLang);
-  const data = Object.values(allData)[0];
+  const data = Object.values(allData)[0].about;
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>{data?.getKnow}</h5>
+      <h2>{data?.aboutMe}</h2>
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me_image">
@@ -27,9 +27,9 @@ const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <FaAward className="about_icon" />
-              <h5>Experience</h5>
+              <h5>{data?.experience}</h5>
               <small>
-                7+ Months Working at{" "}
+                7+ {data?.monthsWork}{" "}
                 <a href="https://vatan-ict.tj" target="_blank">
                   Vatan ICT
                 </a>
@@ -37,75 +37,70 @@ const About = () => {
             </article>
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
-              <h5>Projects</h5>
+              <h5>{data?.projects}</h5>
               <ul className="langList">
                 <li>
                   <a href="https://edonish.tj" target="_blank">
                     eDonish
                   </a>{" "}
-                  - a project to degitalize school education of Dushanbe
-                  (Tajikistan)
+                  {data?.eDonishDesc}
                 </li>
               </ul>{" "}
             </article>
             <article className="about_card">
               <MdCastForEducation className="about_icon" />
-              <h5>Education</h5>
+              <h5>{data?.education}</h5>
               <ul className="langList">
                 <li>
                   <a href="https://msu.tj" target="_blank">
-                    Branch of Moscow State University in Dushanbe
+                    {data?.msu}
                   </a>
                 </li>
-                <li>School №22</li>
-                <li>School №5</li>
+                <li>{data?.school} №22</li>
+                <li>{data?.school} №9</li>
               </ul>
             </article>
             <article className="about_card">
               <FaChartLine className="about_icon" />
-              <h5>Achievements</h5>
+              <h5>{data?.achievements}</h5>
               <ul className="langList">
                 <li>
                   <a href="https://www.daad.de/en/" target="_target">
-                    DAAD
+                    {data?.daad}
                   </a>{" "}
-                  HSK-2022 Scholarship holder
+                  {data?.hsk2022}
                 </li>
                 <li>
-                  1 Month Language Course at{" "}
+                  {data?.oneMonthCourse}{" "}
                   <a href="https://www.uni-muenster.de/en/" target="_blank">
-                    WWU
+                    {data?.wwu}
                   </a>
                 </li>
-                <li>Regional Olympiad Winner</li>
+                <li>{data?.olympiadWinner}</li>
               </ul>{" "}
             </article>
             <article className="about_card">
               <IoLanguageOutline className="about_icon" />
-              <h5>Languages</h5>
+              <h5>{data?.languages}</h5>
               {/* <small>3+ Years Working</small> */}
               <ul className="langList">
-                <li>English</li>
-                <li>Russian</li>
-                <li>German</li>
-                <li>Uzbek</li>
-                <li>Tajik</li>
+                <li>{data?.en}</li>
+                <li>{data?.ru}</li>
+                <li>{data?.de}</li>
+                <li>{data?.uz}</li>
+                <li>{data?.tj}</li>
               </ul>
             </article>
             <article className="quote">
               <FiKey className="about_icon" />
-              <h5>Key Of Success</h5>
-              <p>
-                {" "}
-                "Success is often achieved by those who don’t know that failure
-                is inevitable."
-              </p>
-              <small>Coco Chanel</small>
-              <small>fashion designer</small>
+              <h5>{data?.successKey}</h5>
+              <p> {data?.successKeyDesc}</p>
+              <small>{data?.cocoChanel}</small>
+              <small>{data?.fashionDisigner}</small>
             </article>
           </div>
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            {data?.letsTalk}
           </a>
         </div>
       </div>

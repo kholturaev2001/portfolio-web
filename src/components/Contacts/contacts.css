@@ -19,6 +19,9 @@
   border: 1px solid transparent;
   transition: var(--transition);
 }
+.contact_option > h5 {
+  font-size: 12px;
+}
 
 .contact_option:hover {
   background: transparent;

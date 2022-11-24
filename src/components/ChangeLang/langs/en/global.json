@@ -1,9 +1,38 @@
 {
-  "hello": "Hello, I'm", 
-  "myName": "Muhammadrasul Kholturaev",
-  "job": "Frontend Developer", 
-  "scrollDown": "Scroll Down",
-  "cvDownload": "Download CV",
-  "letsTalk": "Let's Talk"
-
+  "header": {
+    "hello": "Hello, I'm",
+    "myName": "Muhammadrasul Kholturaev",
+    "job": "Frontend Developer",
+    "scrollDown": "Scroll Down",
+    "cvDownload": "Download CV",
+    "letsTalk": "Let's Talk"
+  },
+  "about": {
+    "getKnow": "Get To Know",
+    "aboutMe": "About Me",
+    "experience": "Experience",
+    "monthsWork": "Months Working at",
+    "projects": "Projects",
+    "eDonishDesc": "- a project to degitalize school education of Dushanbe (Tajikistan)",
+    "education": "Education",
+    "msu": "Branch of Moscow State University in Dushanbe",
+    "school": "School",
+    "achievements": "Achievements",
+    "daad": "DAAD",
+    "hsk2022": "HSK-2022 Scholarship holder",
+    "oneMonthCourse": "1 Month Language Course at",
+    "wwu": "WWU",
+    "olympiadWinner": "Regional Olympiad Winner",
+    "languages": "Languages",
+    "en": "English",
+    "ru": "Russian",
+    "de": "German",
+    "tj": "Tajik",
+    "uz": "Uzbek",
+    "successKey": "Key Of Success",
+    "successKeyDesc": " \"Success is often achieved by those who don’t know that failure is inevitable.\" ",
+    "cocoChanel": "Coco Chanel",
+    "fashionDisigner": "fashion designer",
+    "letsTalk": "Let's Talk"
+  }
 }

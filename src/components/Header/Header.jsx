@@ -7,8 +7,8 @@ import { useSelector } from "react-redux";
 
 const Header = () => {
   const { allData } = useSelector((state) => state.changeLang);
-  const data = Object.values(allData)[0];
-  
+  const data = Object.values(allData)[0].header;
+
   return (
     <header>
       <div className="container header_container">
