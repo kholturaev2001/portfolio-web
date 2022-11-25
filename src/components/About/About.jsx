@@ -11,7 +11,7 @@ import { useSelector } from "react-redux";
 
 const About = () => {
   const { allData } = useSelector((state) => state.changeLang);
-  const data = Object.values(allData)[0].about;
+  const data = Object.values(allData)[0]?.about;
   return (
     <section id="about">
       <h5>{data?.getKnow}</h5>

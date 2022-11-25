@@ -8,13 +8,16 @@ import IMG5 from "../../assets/Dashboard.png";
 // import IMG6 from "../../assets/TicTacToe.png";
 import IMG7 from "../../assets/TravelJournal.png";
 import IMG8 from "../../assets/axios back.png";
+import { useSelector } from "react-redux";
 
 const Portfolio = () => {
-  const data = [
+  const { allData } = useSelector((state) => state.changeLang);
+  const data = Object.values(allData)[0]?.portfolio;
+  const projects = [
     {
       id: 1,
       image: IMG1,
-      title: "Mini Projects",
+      title: data?.miniProjects,
       github: "https://github.com/kholturaev2001/Mini_Projects",
       demo: "https://dancing-licorice-7e4dab.netlify.app",
     },
@@ -28,7 +31,7 @@ const Portfolio = () => {
     {
       id: 3,
       image: IMG3,
-      title: "Airbnb (A small project with card components)",
+      title: data?.airbnb,
       github: "https://github.com/kholturaev2001/Airbnb",
       demo: "https://iridescent-moonbeam-0975eb.netlify.app",
     },
@@ -42,7 +45,7 @@ const Portfolio = () => {
     {
       id: 5,
       image: IMG5,
-      title: `Dashboard (After signing up functionalities such as adding members, seeing the dashboard statistics and orders are available)`,
+      title: data?.dashboard,
       github: "https://github.com/kholturaev2001/Dashboard",
       demo: "https://superb-begonia-3e7641.netlify.app",
     },
@@ -56,25 +59,25 @@ const Portfolio = () => {
     {
       id: 7,
       image: IMG7,
-      title: "Travel Journal (Explore fascinating corners of the word on this project)",
+      title: data?.travelJournal,
       github: "https://github.com/kholturaev2001/Travel-journey",
       demo: "https://charming-llama-3426a6.netlify.app",
     },
     {
       id: 8,
       image: IMG8,
-      title: "Axios (A project with backend interaction example)",
+      title: data?.axios,
       github: "https://github.com/kholturaev2001/Axios-Back-end-",
       demo: "https://lustrous-puppy-545d19.netlify.app",
     },
   ];
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>{data?.myWork}</h5>
+      <h2>{data?.portfolio}</h2>
 
       <div className="container portfolio_container">
-        {data.map(({ id, image, title, github, demo }) => (
+        {projects.map(({ id, image, title, github, demo }) => (
           <article key={id} className="portfolio_item">
             <div className="portfolio_item-image">
               <img src={image} alt="" />
@@ -85,7 +88,7 @@ const Portfolio = () => {
                 Github
               </a>
               <a href={demo} className="btn btn-primary" target="_blank">
-                Live Demo
+                {data?.liveDemo}
               </a>
             </div>
           </article>

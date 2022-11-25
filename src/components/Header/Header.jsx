@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 
 const Header = () => {
   const { allData } = useSelector((state) => state.changeLang);
-  const data = Object.values(allData)[0].header;
+  const data = Object.values(allData)[0]?.header;
 
   return (
     <header>

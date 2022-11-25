@@ -13,30 +13,33 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import { useSelector } from "react-redux";
 
 const Testimonials = () => {
-  const data = [
+  const { allData } = useSelector((state) => state.changeLang);
+  const data = Object.values(allData)[0]?.testimonials;
+  const people = [
     {
       avatar: bobojon,
-      name: "Bobojon Turaev",
-      job: "HR Manager, UX/UI Designer at Vatan ICT",
+      name: data?.bobojonTuraev,
+      job: data?.bobojonTuraevJob,
       email: "bobojonturaev@gmail.com",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque perferendis officiis ratione odit dolorem magni sit delectus error reiciendis corporis accusamus at reprehenderit, ullam illo dicta atque? Totam, delectus.",
     },
     {
       avatar: lola,
-      name: "Lola Aminjanova",
-      job: "Professional Photographer",
-      email: "lolaaminjanova@gmail.com",
+      name: data?.lolaAminjanova,
+      job: data?.lolaAminjanovaJob,
+      email: "lola@gmail.com",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque perferendis officiis ratione odit dolorem magni sit delectus error reiciendis corporis accusamus at reprehenderit, ullam illo dicta atque? Totam, delectus.",
     },
     {
       avatar: nurullo,
-      name: "Nurullo Sulaymonov",
-      job: "Founder of SoftClub, Middle Backend Developer",
-      email: "lolaaminjanova@gmail.com",
+      name: data?.nurulloSulaymonov,
+      job: data?.nurulloSulaymonovJob,
+      email: "nurulloSulaymonov@gmail.com",
       review:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque perferendis officiis ratione odit dolorem magni sit delectus error reiciendis corporis accusamus at reprehenderit, ullam illo dicta atque? Totam, delectus.",
     },
@@ -51,8 +54,8 @@ const Testimonials = () => {
   ];
   return (
     <section id="testimonials">
-      <h5>Feedbacks</h5>
-      <h2>Testimonials</h2>
+      <h5>{data?.feedbacks}</h5>
+      <h2>{data?.testimonals}</h2>
 
       <Swiper
         className="container testimonials_container"
@@ -62,7 +65,7 @@ const Testimonials = () => {
         navigation
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review, job, email }, id) => (
+        {people.map(({ avatar, name, review, job, email }, id) => (
           <SwiperSlide key={id} className="testimonial">
             <div className="client_avatar">
               <img src={avatar} />

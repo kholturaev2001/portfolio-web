@@ -34,5 +34,57 @@
     "cocoChanel": "Coco Chanel",
     "fashionDisigner": "fashion designer",
     "letsTalk": "Let's Talk"
+  },
+  "experience": {
+    "skillsIHave": "What Skills I Have",
+    "myExperience": "My Experience",
+    "frontendDev": "Frontend Development",
+    "blockChainDev": "Blockchain Development",
+    "experienced": "Experienced",
+    "intermediate": "Intermediate",
+    "elementary": "Elementary",
+    "basics": "Basics",
+    "workWithGoerliTest": "Work With Goerli Test ETH"
+  },
+  "services": {
+    "whatIOffer": "What I Offer",
+    "services": "Services",
+    "webDev": "Web Development",
+    "blockChainDev": "Blockchain Development",
+    "buildUIInteraction": "Build complex UI interactions that communicate with the server.",
+    "formFrontDesign": "Form the front-end design of a website by applying information that affects content.",
+    "styleOfSite": "Style, flexibility and interactivity of a site.",
+    "apiInteraction": "Interaction with API.",
+    "buildMulptiPageWebsite": "Build static multi-page websites.",
+    "emailTemplate": "Code email templates.",
+    "designUI": "Design beautiful user interfaces.",
+    "workOnLargeProjects": "Work with other developers on larger projects.",
+    "designEthBasedSC": "Constructing & designing Ethereum-based smart contracts within the Ethereum Virtual Platform and Blockchain platforms.",
+    "generateChainOfTransaction": "Implement business logic and generate a chain of transaction records in the blockchain system.",
+    "createDapp": "Creating decentralized applications (DAPP) and interaction among users and applications."
+  },
+  "portfolio": {
+    "myWork": "My Recent Work",
+    "portfolio": "Portfolio",
+    "liveDemo": "Live Demo",
+    "miniProjects": "Mini Projects",
+    "coffeeStyle": "Coffe Style (Landing Page)",
+    "airbnb": "Airbnb (A small project with card components)",
+    "dashboard": "Dashboard (After signing up functionalities such as adding members, seeing the dashboard statistics and orders are available)",
+    "travelJournal": "Travel Journal (Explore fascinating corners of the word on this project)",
+    "axios": "Axios (A project with backend interaction example)"
+  },
+  "testimonials": {
+    "testimonials": "Testimonials",
+    "feedbacks": "Feedbacks",
+    "bobojonTuraev": "Bobojon Turaev",
+    "bobojonTuraevJob": "HR Manager, UX/UI Designer at Vatan ICT",
+    "bobojonTuraevReview": "",
+    "lolaAminjanova": "Lola Aminjanova",
+    "lolaAminjanovaJob": "Professional Photographer",
+    "lolaAminjanovaReview": "",
+    "nurulloSulaymonov": "Nurullo Sulaymonov",
+    "nurulloSulaymonovJob": "Founder of SoftClub IT Center, Middle Backend Developer",
+    "nurulloSulaymonovReview": ""
   }
 }
