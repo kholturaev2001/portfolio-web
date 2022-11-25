@@ -35,5 +35,78 @@
     "cocoChanel": "Коко Шанель",
     "fashionDisigner": "модельер",
     "letsTalk": "Связаться"
+  },
+  "experience": {
+    "skillsIHave": "Мои умения",
+    "myExperience": "Мой опыт",
+    "frontendDev": "Фронтенд разработка",
+    "blockChainDev": "Блокчейн разработка",
+    "experienced": "Опытный",
+    "intermediate": "Продвинутый",
+    "elementary": "Элементарный",
+    "basics": "Базовый",
+    "workWithGoerliTest": "Работа с тестовой сетью Goerli ETH "
+  },
+  "services": {
+    "whatIOffer": "Что я предлагаю",
+    "services": "Сервисы",
+    "webDev": "Веб разработка",
+    "blockChainDev": "Блокчейн разработка",
+    "buildUIInteraction": "Build complex UI interactions that communicate with the server.",
+    "formFrontDesign": "Form the front-end design of a website by applying information that affects content.",
+    "styleOfSite": "Style, flexibility and interactivity of a site.",
+    "apiInteraction": "Interaction with API.",
+    "buildMulptiPageWebsite": "Build static multi-page websites.",
+    "emailTemplate": "Code email templates.",
+    "designUI": "Design beautiful user interfaces.",
+    "workOnLargeProjects": "Work with other developers on larger projects.",
+    "designEthBasedSC": "Constructing & designing Ethereum-based smart contracts within the Ethereum Virtual Platform and Blockchain platforms.",
+    "generateChainOfTransaction": "Implement business logic and generate a chain of transaction records in the blockchain system.",
+    "createDapp": "Creating decentralized applications (DAPP) and interaction among users and applications."
+  },
+  "portfolio": {
+    "myWork": "Недавние работы",
+    "portfolio": "Портфолио",
+    "liveDemo": "Взглянуть",
+    "miniProjects": "Mini Projects",
+    "coffeeStyle": "Coffe Style (Landing Page)",
+    "airbnb": "Airbnb (Небольшой проект с компонентом карточки)",
+    "dashboard": "Dashboard (After signing up functionalities such as adding members, seeing the dashboard statistics and orders are available)",
+    "travelJournal": "Travel Journal (Explore fascinating corners of the word on this project)",
+    "axios": "Axios (A project with backend interaction example)"
+  },
+  "testimonials": {
+    "testimonials": "Testimonials",
+    "feedbacks": "Отзывы",
+    "bobojonTuraev": "Бободжон Тураев",
+    "bobojonTuraevJob": "HR-Менеджер, UX/UI Дизайнер в Ватан ИКТ",
+    "bobojonTuraevReview": "",
+    "lolaAminjanova": "Лала Аминджанова",
+    "lolaAminjanovaJob": "Профессиональный фотограф",
+    "lolaAminjanovaReview": "",
+    "nurulloSulaymonov": "Нурулло Сулаймонов",
+    "nurulloSulaymonovJob": "Основатель ИТ-центра SoftClub, Миддл бэкенд разработчик",
+    "nurulloSulaymonovReview": ""
+  },
+  "contacts": {
+    "getInTouch": "Связаться",
+    "contactMe": "Контакты",
+    "email": "Эл. почта",
+    "sendAMessage": "Отправить сообщение",
+    "sendMessage": "Отправить",
+    "myName": "Мухаммадрасул",
+    "messageSend": "Сообщение отправлено",
+    "yourName": "Ваше имя",
+    "yourEmail": "Ваша эл. почта",
+    "yourMessage": "Ваше сообщение"
+  },
+  "footer": {
+    "home": "Гланая",
+    "about": "О себе",
+    "experience": "Опыт",
+    "services": "Сервисы",
+    "portfolio": "Портфолио",
+    "testimonials": "Отзывы",
+    "contact": "Контакты"
   }
 }

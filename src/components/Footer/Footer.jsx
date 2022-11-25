@@ -2,37 +2,49 @@ import React from "react";
 import "./footer.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
 import { BsSkype } from "react-icons/bs";
+import { useSelector } from "react-redux";
 
 const Footer = () => {
+  const { allData } = useSelector((state) => state.changeLang);
+  const data = Object.values(allData)[0]?.footer;
   return (
     <footer>
-      {/* <a href="#" className="footer_logo">
-        EGATOR
-      </a> */}
-
       <ul className="permalinks">
         <li>
-          <a href="#"><code>Home</code></a>
+          <a href="#">
+            <code>{data?.home}</code>
+          </a>
         </li>
         <li>
-          <a href="#about"><code>About</code></a>
+          <a href="#about">
+            <code>{data?.about}</code>
+          </a>
         </li>
         <li>
-          <a href="#experience"><code>Experience</code></a>
+          <a href="#experience">
+            <code>{data?.experience}</code>
+          </a>
         </li>
         <li>
-          <a href="#services"><code>Services</code></a>
+          <a href="#services">
+            <code>{data?.services}</code>
+          </a>
         </li>
         <li>
-          <a href="#portfolio"><code>Portfolio</code></a>
+          <a href="#portfolio">
+            <code>{data?.portfolio}</code>
+          </a>
         </li>
         <li>
-          <a href="#testimonials"><code>Testimonials</code></a>
+          <a href="#testimonials">
+            <code>{data?.testimonials}</code>
+          </a>
         </li>
         <li>
-          <a href="#contact"><code>Contact</code></a>
+          <a href="#contact">
+            <code>{data?.contact}</code>
+          </a>
         </li>
       </ul>
 
@@ -46,16 +58,15 @@ const Footer = () => {
         <a href="https://www.instagram.com/kholturaev2001/" target="_blank">
           <FiInstagram />
         </a>
-        <a
-          href="https://join.skype.com/invite/HiFx1oLukppS"
-          target="_blank"
-        >
+        <a href="https://join.skype.com/invite/HiFx1oLukppS" target="_blank">
           <BsSkype />
         </a>
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; <code>2022</code></small>
+        <small>
+          &copy; <code>2022</code>
+        </small>
       </div>
     </footer>
   );

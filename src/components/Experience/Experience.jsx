@@ -52,7 +52,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>SASS</h4>
-                <small className="text-light">{data?.elementary}</small>
+                <small className="text-light">{data?.experienced}</small>
               </div>
             </article>
             <article className="experience_details">
@@ -60,7 +60,7 @@ const Experience = () => {
               <div>
                 {" "}
                 <h4>Tailwind</h4>
-                <small className="text-light">{data?.experienced}</small>
+                <small className="text-light">{data?.elementary}</small>
               </div>
             </article>
             <article className="experience_details">

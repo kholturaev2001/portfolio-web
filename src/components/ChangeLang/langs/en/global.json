@@ -86,5 +86,26 @@
     "nurulloSulaymonov": "Nurullo Sulaymonov",
     "nurulloSulaymonovJob": "Founder of SoftClub IT Center, Middle Backend Developer",
     "nurulloSulaymonovReview": ""
+  },
+  "contacts": {
+    "getInTouch": "Get In Touch",
+    "contactMe": "Contact Me",
+    "email": "Email",
+    "sendAMessage": "Send a message",
+    "sendMessage": "Send message",
+    "myName": "Muhammadrasul",
+    "messageSend": "Message sent",
+    "yourName": "Your Full Name",
+    "yourEmail": "Your Email",
+    "yourMessage": "Your Message"
+  },
+  "footer": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
   }
 }

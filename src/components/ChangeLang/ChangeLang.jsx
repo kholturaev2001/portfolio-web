@@ -42,7 +42,7 @@ const ChangeLang = () => {
     },
     {
       id: 5,
-      name: "Uzbekcha",
+      name: "O'zbekcha",
       img: UZFlag,
     },
   ];
