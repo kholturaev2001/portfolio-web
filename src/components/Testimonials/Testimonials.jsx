@@ -24,32 +24,21 @@ const Testimonials = () => {
       name: data?.bobojonTuraev,
       job: data?.bobojonTuraevJob,
       email: "bobojonturaev@gmail.com",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque perferendis officiis ratione odit dolorem magni sit delectus error reiciendis corporis accusamus at reprehenderit, ullam illo dicta atque? Totam, delectus.",
+      review: data?.bobojonTuraevReview
     },
     {
       avatar: lola,
       name: data?.lolaAminjanova,
       job: data?.lolaAminjanovaJob,
-      email: "lola@gmail.com",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque perferendis officiis ratione odit dolorem magni sit delectus error reiciendis corporis accusamus at reprehenderit, ullam illo dicta atque? Totam, delectus.",
+      email: "aminilola@mail.ru",
+      review: data?.lolaAminjanovaReview
     },
     {
       avatar: nurullo,
       name: data?.nurulloSulaymonov,
       job: data?.nurulloSulaymonovJob,
-      email: "nurulloSulaymonov@gmail.com",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque perferendis officiis ratione odit dolorem magni sit delectus error reiciendis corporis accusamus at reprehenderit, ullam illo dicta atque? Totam, delectus.",
-    },
-    {
-      avatar: AVTR4,
-      name: "Nana Ama McBrown",
-      job: "Manager of UN in Tajikistan",
-      email: "lolaaminjanova@gmail.com",
-      review:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloremque perferendis officiis ratione odit dolorem magni sit delectus error reiciendis corporis accusamus at reprehenderit, ullam illo dicta atque? Totam, delectus.",
+      email: "sulaimonovnn@softclub.tj",
+      review: data?.nurulloSulaymonovReview,
     },
   ];
   return (
