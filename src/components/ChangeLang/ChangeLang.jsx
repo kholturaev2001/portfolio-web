@@ -65,6 +65,15 @@ const ChangeLang = () => {
     setArrow((e) => !e);
   };
 
+  // useEffect(() => {
+  //   window.addEventListener("click", (e) => {
+  //     if (e.target.innerText !== "English") {
+  //       setArrow(false);
+  //     }
+  //     console.log(e.target.innerText);
+  //   });
+  // }, []);
+
   function changeLangFunc(c) {
     localStorage.setItem("lang", c);
     setA(c);
