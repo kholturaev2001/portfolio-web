@@ -32,7 +32,8 @@ const About = () => {
                 7+ {data?.monthsWork}{" "}
                 <a href="https://vatan-ict.tj" target="_blank">
                   Vatan ICT
-                </a>
+                </a>{" "}
+                {data?.in}
               </small>
             </article>
             <article className="about_card">
@@ -73,8 +74,9 @@ const About = () => {
                 <li>
                   {data?.oneMonthCourse}{" "}
                   <a href="https://www.uni-muenster.de/en/" target="_blank">
-                    {data?.wwu}
+                    {data?.wwu}{" "}
                   </a>
+                  {data?.in}
                 </li>
                 <li>{data?.olympiadWinner}</li>
               </ul>{" "}
