@@ -82,30 +82,30 @@
     "bobojonTuraevReview": "Ман ҳангоми кор бо Муҳаммадрасул кор мекарда, дар у бисёр хислатҳои хуби коргари муваффақиятнокро мушохида мекардам. У ҳеҷ гоҳ дер намемонад, ҳар як супорише, ки ба у дода шавад, пеш аз муҳлат ичро мекард. Ҳеҷ гоҳ баҳс намекунад, ҳамеша бо кор машғул аст. Вақте ки ба касе дастгирй лозим аст, у ҳамеша тайёр.",
     "lolaAminjanova": "Лола Аминҷонова",
     "lolaAminjanovaJob": "Суратгири касбӣ",
-    "lolaAminjanovaReview": "Emotionally stable friend with the following useful qualities: perseverance, hard working, efficiency and responsibility.",
-    "nurulloSulaymonov": "Nurullo Sulaymonov",
-    "nurulloSulaymonovJob": "Founder of SoftClub IT Center, Middle Backend Developer",
-    "nurulloSulaymonovReview": "I know Muhammadrasul about a year. First time when he came to softclub he didn't know anything about programming. Gradually with a great passion he continued studying С++, HTML, git, JavaScript and React. We are amazed with such commitment and process. I am sure Muhammadrasul can overcome any difficulties in programming as well as any aspect of life."
+    "lolaAminjanovaReview": "Дӯсти аз ҷиҳати эҳсосӣ устувор бо сифатҳои зерини муфид: устуворӣ, меҳнатдӯстӣ, самаранокӣ ва масъулият.",
+    "nurulloSulaymonov": "Нурулло Сулаймонов",
+    "nurulloSulaymonovJob": "Муассиси Маркази IT SoftClub, барномасози бэкенд",
+    "nurulloSulaymonovReview": "Ман Муҳаммадрасулро беш аз як сол мешиносам. Бори аввал, вақте ки ӯ ба SoftClub омад, дар бораи барномасозӣ чизе намедонист. Оҳиста-оҳиста бо шавқи зиёд ӯ омӯзиши забонҳои С++, HTML, git, JavaScript ва React-ро идома дод. Мо аз чунин ӯҳдадорӣ ва раванд дар ҳайратем. Боварӣ дорам, ки Муҳаммадрасул метавонад ҳама мушкилиҳоро дар барномасозӣ ва ҳар паҳлуи зиндагӣ паси сар кунад."
   },
   "contacts": {
-    "getInTouch": "Get In Touch",
-    "contactMe": "Contact Me",
-    "email": "Email",
-    "sendAMessage": "Send a message",
-    "sendMessage": "Send message",
-    "myName": "Muhammadrasul",
-    "messageSend": "Message sent",
-    "yourName": "Your Full Name",
-    "yourEmail": "Your Email",
-    "yourMessage": "Your Message"
+    "getInTouch": "Тамос",
+    "contactMe": "Мулоқот",
+    "email": "Почтаи электронӣ",
+    "sendAMessage": "Паём фиристодан",
+    "sendMessage": "Фиристодан",
+    "myName": "Муҳаммадрасул",
+    "messageSend": "Паёми Шумо фиристода шуд",
+    "yourName": "Ному насаб",
+    "yourEmail": "Почтаи электронии Шумо",
+    "yourMessage": "Паёми Шумо"
   },
   "footer": {
-    "home": "Home",
-    "about": "About",
-    "experience": "Experience",
-    "services": "Services",
-    "portfolio": "Portfolio",
-    "testimonials": "Testimonials",
-    "contact": "Contact"
+    "home": "Асосӣ",
+    "about": "Дар бораи ман",
+    "experience": "Таҷриба",
+    "services": "Хизматҳо",
+    "portfolio": "Портфолио",
+    "testimonials": "Баррасиҳо",
+    "contact": "Тамос"
   }
 }
