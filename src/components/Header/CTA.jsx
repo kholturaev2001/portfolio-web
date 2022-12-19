@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import CV from '../../assets/CV Kholturaev.pdf'
+import CV from '../../assets/CV_Muhammadrasul_de.pdf'
 
 const CTA = () => {
   const { allData } = useSelector((state) => state.changeLang);
