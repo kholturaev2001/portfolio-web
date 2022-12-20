@@ -15,8 +15,10 @@ import { useDispatch } from "react-redux";
 import { changeLangAcc } from "../../store/changeLang/changeLang";
 
 const ChangeLang = () => {
+  var lang = localStorage.getItem("lang");
+
   const [arrow, setArrow] = useState(false);
-  const [a, setA] = useState(1);
+  const [a, setA] = useState(lang || 1);
   const dispatch = useDispatch();
 
   const language = [
