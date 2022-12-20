@@ -1,7 +1,6 @@
 import React from "react";
 import "./testimonials.css";
 import lola from "../../assets/lola.png";
-import AVTR4 from "../../assetsOne/avatar4.jpg";
 import bobojon from "../../assets/BobojonTuraev.png";
 import nurullo from "../../assets/NurulloSulaymonov.png";
 
