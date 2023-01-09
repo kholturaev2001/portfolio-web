@@ -6,6 +6,7 @@ import IMG3 from "../../assets/Airbnb.png";
 import IMG5 from "../../assets/Dashboard.png";
 import IMG7 from "../../assets/TravelJournal.png";
 import IMG8 from "../../assets/axios back.png";
+import IMG9 from "../../assets/marketPlace.png";
 import { useSelector } from "react-redux";
 
 const Portfolio = () => {
@@ -18,6 +19,13 @@ const Portfolio = () => {
       title: data?.miniProjects,
       github: "https://github.com/kholturaev2001/Mini_Projects",
       demo: "https://dancing-licorice-7e4dab.netlify.app",
+    },
+    {
+      id: 9,
+      image: IMG9,
+      title: data?.marketPlace,
+      github: "https://github.com/kholturaev2001/shopping_cart",
+      demo: "https://shopping-cart-flax-five.vercel.app",
     },
     {
       id: 2,

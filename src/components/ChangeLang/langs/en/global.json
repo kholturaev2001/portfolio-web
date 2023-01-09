@@ -68,6 +68,7 @@
     "portfolio": "Portfolio",
     "liveDemo": "Live Demo",
     "miniProjects": "Mini Projects",
+    "marketPlace": "Market place (In this project, in Store section you can select the products you want to buy, increase the amount or remove from the cart)",
     "coffeeStyle": "Coffe Style (Landing Page)",
     "airbnb": "Airbnb (A small project with card components)",
     "dashboard": "Dashboard (After signing up functionalities such as adding members, seeing the dashboard statistics and orders are available)",
